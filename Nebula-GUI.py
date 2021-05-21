@@ -46,7 +46,6 @@ class Toplevel1:
         top.configure(highlightcolor="#f5f5dedeb3b3")
 
         self.Button1 = tk.Button(top)
-        # self.Button1.place(x=10, y=155, height=30, width=560)
         self.Button1.pack(padx=10, pady=170)
         self.Button1.configure(height=1, width=100)
         self.Button1.configure(activebackground="#d9d9d9")
