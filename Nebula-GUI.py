@@ -61,8 +61,6 @@ class Toplevel1:
 
         self.Label1 = tk.Label(top)
         self.Label1.place(x=200, y=10, height=21, width=38)
-        # self.Label1.pack(padx=100, pady=200)
-        # self.Label1.configure(height=80, width=100)
         self.Label1.configure(activebackground="#f9f9f9")
         self.Label1.configure(activeforeground="black")
         self.Label1.configure(background="#d9d9d9")
@@ -117,8 +115,6 @@ class Toplevel1:
         self.Label1_2.configure(highlightbackground="#d9d9d9")
         self.Label1_2.configure(highlightcolor="black")
         self.Label1_2.configure(text="""Subnets""")
-
-        # Multi Text Box
 
         self.Text1 = tk.Text(top)
         self.Text1.place(x=10, y=210, height=340, width=545)
